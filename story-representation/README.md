@@ -60,6 +60,7 @@ story-representation/
 - `events/` の順序を入れ替えて別展開を作る
 - `claims/` を参照して法廷劇や外交劇にする
 - `items/treasures/` を使って宝物ごとの短編を作る
+- `worlds/momotaro/texts/original_ja.md` を基準本文として参照する
 - `characters/child_oni.yml` を中心にして鬼側の成長物語にする
 - `narratives/original.yml` の視点を差し替えて語り直す
 
@@ -70,4 +71,3 @@ story-representation/
 - `timeline.yml` を追加して複数バージョンの時系列を管理する
 - `rules/` を追加して世界内の魔力、契約、所有権ルールを定義する
 - 他作品用に `worlds/<story_id>/` を増やす
-

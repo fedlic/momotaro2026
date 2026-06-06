@@ -33,6 +33,7 @@ story-representation/
 - `events`: 桃の発見、誕生、旅立ち、仲間集め、鬼ヶ島到着、戦闘、帰還
 - `claims`: 桃太郎側と鬼側の言い分
 - `narratives`: 原典寄りの語りと別視点生成の入口
+- `texts`: 構造化の基準になる普通の桃太郎本文
 - `schemas`: 他作品にも転用できるYAML項目定義
 
 ## 検証

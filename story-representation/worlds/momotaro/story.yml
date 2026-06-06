@@ -24,6 +24,8 @@ collections:
     - factions/oni_clan.yml
   narratives:
     - narratives/original.yml
+  texts:
+    - texts/original_ja.md
   claims:
     - claims/momotaro_side.yml
     - claims/oni_side.yml
