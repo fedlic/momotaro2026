@@ -19,9 +19,22 @@ story-representation/
 ├── schemas/
 └── worlds/
     └── momotaro/
+        ├── texts/
+        │   └── original_ja.md
+        ├── story.yml
+        ├── world.yml
+        └── ...
 ```
 
 詳しい設計思想とディレクトリ構造は、[story-representation/README.md](story-representation/README.md) を参照してください。
+
+## 桃太郎 標準テキスト
+
+構造化データの基準本文として、[story-representation/worlds/momotaro/texts/original_ja.md](story-representation/worlds/momotaro/texts/original_ja.md) に普通の桃太郎の再話を置いています。
+
+この本文は特定の刊本からの引用ではなく、このリポジトリ用に新しく書いた標準テキストです。AIがYAMLデータだけを見て話の全体像を見失わないように、出来事の順番、登場人物、主要アイテム、宝物の登場箇所を確認するための参照元として使います。
+
+構造データを編集するときは、まず標準テキストで物語の流れを確認し、対応する `events/`、`characters/`、`items/`、`claims/` を更新します。逆に、鬼側視点や別展開を生成するときは、標準テキストを「人間側の基本語り」として扱い、`claims/oni_side.yml` や `factions/oni_clan.yml` で視点をずらします。
 
 ## 含まれる要素
 
