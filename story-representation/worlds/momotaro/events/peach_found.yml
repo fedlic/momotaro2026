@@ -1,0 +1,23 @@
+id: peach_found
+name: 桃が見つかる
+class: event
+type: discovery
+sequence: 3
+location: river
+participants:
+  - old_woman
+items:
+  - peach
+causes:
+  - old_woman_goes_to_river
+outcomes:
+  - おばあさんが大きな桃を拾い家へ持ち帰る。
+claims_generated:
+  - 桃は拾得物として老夫婦の家に持ち込まれる。
+narrative_functions:
+  - 超自然的な始まり
+  - 桃太郎誕生の準備
+alternate_interpretations:
+  - 桃は神からの贈り物である。
+  - 桃は鬼ヶ島または別勢力から流された存在である。
+

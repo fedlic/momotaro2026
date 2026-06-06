@@ -1,0 +1,19 @@
+id: event_schema
+name: Event Schema
+class: schema
+description: 出来事データ定義
+fields:
+  id: snake_caseの一意ID
+  name: 表示名
+  class: event
+  type: 出来事種別
+  sequence: 物語内順序
+  location: 場所
+  participants: 参加者ID配列
+  items: 関連アイテムID配列
+  causes: 原因イベントID配列
+  outcomes: 結果
+  claims_generated: 生成される主張
+  narrative_functions: 物語上の機能
+  alternate_interpretations: 別解釈
+

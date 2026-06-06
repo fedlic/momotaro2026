@@ -1,0 +1,37 @@
+id: return_home
+name: 宝を持って帰る
+class: event
+type: return
+sequence: 12
+location: village
+participants:
+  - momotaro
+  - old_man
+  - old_woman
+  - dog
+  - monkey
+  - pheasant
+items:
+  - boat
+  - treasure_chest
+  - golden_mallet
+  - coral_branch
+  - invisible_cloak
+  - gold_coins
+  - silver_coins
+  - silk_roll
+causes:
+  - oni_defeat
+outcomes:
+  - 桃太郎は宝物を持ち帰る。
+  - 村では勝利と富の回復として語られる。
+claims_generated:
+  - 桃太郎は村を救った英雄である。
+  - 鬼側の損失は語りから消えやすい。
+narrative_functions:
+  - 英雄の帰還
+  - 物語の締めくくり
+alternate_interpretations:
+  - 共同体の救済。
+  - 戦利品の持ち帰り。
+

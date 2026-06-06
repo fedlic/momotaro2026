@@ -1,0 +1,69 @@
+id: momotaro
+name: 桃太郎
+class: story
+type: folktale
+language: ja
+world: momotaro_world
+schemas:
+  character: ../../../schemas/character.schema.yml
+  faction: ../../../schemas/faction.schema.yml
+  item: ../../../schemas/item.schema.yml
+  event: ../../../schemas/event.schema.yml
+  claim: ../../../schemas/claim.schema.yml
+collections:
+  characters:
+    - characters/momotaro.yml
+    - characters/old_man.yml
+    - characters/old_woman.yml
+    - characters/dog.yml
+    - characters/monkey.yml
+    - characters/pheasant.yml
+    - characters/red_oni.yml
+    - characters/child_oni.yml
+  factions:
+    - factions/oni_clan.yml
+  narratives:
+    - narratives/original.yml
+  claims:
+    - claims/momotaro_side.yml
+    - claims/oni_side.yml
+  items:
+    - items/peach.yml
+    - items/kibidango.yml
+    - items/axe.yml
+    - items/brushwood.yml
+    - items/laundry_basket.yml
+    - items/tub.yml
+    - items/boat.yml
+    - items/flag.yml
+    - items/sword.yml
+    - items/headband.yml
+    - items/iron_club.yml
+  treasures:
+    - items/treasures/treasure_chest.yml
+    - items/treasures/golden_mallet.yml
+    - items/treasures/coral_branch.yml
+    - items/treasures/invisible_cloak.yml
+    - items/treasures/gold_coins.yml
+    - items/treasures/silver_coins.yml
+    - items/treasures/silk_roll.yml
+  events:
+    - events/old_man_goes_to_mountain.yml
+    - events/old_woman_goes_to_river.yml
+    - events/peach_found.yml
+    - events/momotaro_birth.yml
+    - events/departure.yml
+    - events/recruit_dog.yml
+    - events/recruit_monkey.yml
+    - events/recruit_pheasant.yml
+    - events/arrive_at_oni_island.yml
+    - events/battle.yml
+    - events/oni_defeat.yml
+    - events/return_home.yml
+themes:
+  - 正義
+  - 所有権
+  - 家族
+  - 異種族間対立
+  - 英雄譚
+  - 侵攻と防衛

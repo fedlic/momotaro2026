@@ -1,0 +1,47 @@
+id: invisible_cloak
+name: 隠れ蓑
+class: item
+type: treasure
+subtype: magical_clothing
+physical:
+  material: 謎の繊維、鬼の織物
+  size: 成人を覆える大きさ
+  portability: 折りたたんで携帯可能
+  condition: 古いが魔力は残っている
+ownership:
+  current_owner: momotaro_party
+  previous_owners:
+    - oni_clan
+  contested: true
+narrative:
+  importance: high
+  function: 視点、潜入、隠蔽の物語を生む
+  first_appearance_event: oni_defeat
+  related_events:
+    - oni_defeat
+    - return_home
+powers:
+  has_power: true
+  abilities:
+    - 身にまとう者を見えにくくする
+    - 境界を越える潜入を可能にする
+  limitations:
+    - 音や匂いまでは消せない
+    - 長時間使用で疲労する
+  risks:
+    - 盗みや監視に悪用される
+    - 使用者の存在感が薄れる
+symbolism:
+  human_side: 鬼の不可思議な宝
+  oni_side: 島を守る秘具
+  neutral: 見えるものだけを真実としない装置
+claims:
+  - claimant: oni_clan
+    claim_type: security_asset
+    reason: 島の防衛と偵察に必要な秘具
+  - claimant: momotaro
+    claim_type: confiscation
+    reason: 鬼が悪用しないよう取り上げる
+story_hooks:
+  - 隠れ蓑を使って鬼側の生活を見た桃太郎が迷う。
+

@@ -1,0 +1,39 @@
+id: axe
+name: 斧
+class: item
+type: tool
+subtype: woodcutting_tool
+physical:
+  material: 鉄の刃、木の柄
+  size: 成人が片手または両手で扱う大きさ
+  portability: 山へ持ち運び可能
+  condition: 日常的に手入れされている
+ownership:
+  current_owner: old_man
+  previous_owners: []
+  contested: false
+narrative:
+  importance: low
+  function: おじいさんの日常労働を示す
+  first_appearance_event: old_man_goes_to_mountain
+  related_events:
+    - old_man_goes_to_mountain
+powers:
+  has_power: false
+  abilities:
+    - 柴や木を切る
+  limitations:
+    - 戦闘用ではない
+  risks:
+    - 山での事故
+symbolism:
+  human_side: 労働と生活の継続
+  oni_side: 人間が自然を切り開く道具
+  neutral: 日常と冒険前の対比
+claims:
+  - claimant: old_man
+    claim_type: use
+    reason: 山仕事に必要な生活道具
+story_hooks:
+  - 斧に古い鬼の鉄が使われていた設定にできる。
+

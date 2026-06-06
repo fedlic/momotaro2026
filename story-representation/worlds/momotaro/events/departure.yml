@@ -1,0 +1,29 @@
+id: departure
+name: 桃太郎の出発
+class: event
+type: quest_departure
+sequence: 5
+location: village
+participants:
+  - momotaro
+  - old_man
+  - old_woman
+items:
+  - kibidango
+  - sword
+  - headband
+  - flag
+  - boat
+causes:
+  - momotaro_birth
+outcomes:
+  - 桃太郎は鬼退治のため旅立つ。
+  - おばあさんはきびだんごを持たせる。
+claims_generated:
+  - 鬼退治は村のための正義である。
+narrative_functions:
+  - 日常から冒険への移行
+  - 家族の支援を可視化する
+alternate_interpretations:
+  - 鬼ヶ島への遠征は防衛行動とも侵攻準備とも読める。
+

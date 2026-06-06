@@ -1,0 +1,46 @@
+id: silk_roll
+name: 絹の反物
+class: item
+type: treasure
+subtype: textile
+physical:
+  material: 絹
+  size: 反物一巻
+  portability: 巻いて運搬可能
+  condition: 湿気を避けて保管されていた
+ownership:
+  current_owner: momotaro_party
+  previous_owners:
+    - oni_clan
+    - disputed_human_village
+  contested: true
+narrative:
+  importance: medium
+  function: 財宝を生活用品としても見せる
+  first_appearance_event: oni_defeat
+  related_events:
+    - oni_defeat
+    - return_home
+powers:
+  has_power: ambiguous
+  abilities:
+    - 衣服や儀礼布になる
+    - 魔法の刺繍を入れられる
+  limitations:
+    - 火と湿気に弱い
+  risks:
+    - 奪還後に誰が使うかで身分差を生む
+symbolism:
+  human_side: 豊かさと祝い
+  oni_side: 衣食住を支える生活物資
+  neutral: 財宝と日用品の境界
+claims:
+  - claimant: oni_clan
+    claim_type: daily_resource
+    reason: 鬼の衣服や儀礼に使われるため
+  - claimant: momotaro
+    claim_type: restitution
+    reason: 人間の財産として奪われた可能性があるため
+story_hooks:
+  - 反物に鬼の家族の名が刺繍されており、返還の判断が揺らぐ。
+

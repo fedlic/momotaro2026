@@ -1,0 +1,36 @@
+id: red_oni
+name: 赤鬼
+class: character
+role: antagonist_leader
+faction: oni_clan
+profile:
+  species: oni
+  age_stage: adult
+  occupation: 鬼ヶ島の戦士または首領
+  residence: oni_island
+traits:
+  personality:
+    - 豪胆
+    - 防衛的
+    - 人間不信
+  skills:
+    - 棍棒術
+    - 威圧
+    - 統率
+  fears:
+    - 鬼の土地を失うこと
+  desires:
+    - 鬼社会の維持
+relationships:
+  child_oni: 守るべき次世代
+  momotaro: 侵入者または討伐者
+narrative:
+  importance: major
+  first_appearance_event: battle
+  arc: 怪物として敗れるが、別視点では共同体の防衛者になりうる。
+claims:
+  - 鬼ヶ島は鬼の土地である。
+  - 宝は鬼社会の生活資源でもある。
+story_hooks:
+  - かつて人間と取引していたが裏切られた過去を持たせる。
+

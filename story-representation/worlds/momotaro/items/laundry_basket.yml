@@ -1,0 +1,40 @@
+id: laundry_basket
+name: 洗濯籠
+class: item
+type: tool
+subtype: household_container
+physical:
+  material: 竹または木
+  size: 洗濯物を入れられる大きさ
+  portability: 手で持ち運び可能
+  condition: 日常使用されている
+ownership:
+  current_owner: old_woman
+  previous_owners: []
+  contested: false
+narrative:
+  importance: low
+  function: 川辺の日常行為を支える
+  first_appearance_event: old_woman_goes_to_river
+  related_events:
+    - old_woman_goes_to_river
+    - peach_found
+powers:
+  has_power: false
+  abilities:
+    - 洗濯物や小物を運ぶ
+  limitations:
+    - 大きな桃を入れるには不安定
+  risks:
+    - 水辺で流される
+symbolism:
+  human_side: 家事と家庭
+  oni_side: 人間の生活圏の象徴
+  neutral: 奇跡が日常に侵入する場の道具
+claims:
+  - claimant: old_woman
+    claim_type: use
+    reason: 洗濯のための日用品
+story_hooks:
+  - 籠が桃を安全に運ぶための最初の器になる。
+

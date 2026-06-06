@@ -1,0 +1,40 @@
+id: momotaro
+name: 桃太郎
+class: character
+role: protagonist
+faction: human_village
+profile:
+  species: human
+  age_stage: young_hero
+  occupation: 鬼退治に向かう英雄
+  residence: village
+traits:
+  personality:
+    - 勇敢
+    - 率直
+    - 使命感が強い
+  skills:
+    - 交渉
+    - 指揮
+    - 剣術
+  fears:
+    - 村が再び襲われること
+  desires:
+    - 家族と村の安全
+    - 正義の達成
+relationships:
+  old_man: 育ての父
+  old_woman: 育ての母
+  dog: きびだんごで仲間になった同行者
+  monkey: きびだんごで仲間になった同行者
+  pheasant: きびだんごで仲間になった同行者
+narrative:
+  importance: central
+  first_appearance_event: momotaro_birth
+  arc: 授かった子から共同体を代表する討伐者になる。
+claims:
+  - 鬼退治は村を守るための正義である。
+story_hooks:
+  - 桃から生まれた理由を神意、呪い、鬼側の血筋として再解釈する。
+  - 勝利後に鬼ヶ島の統治責任を問われる。
+

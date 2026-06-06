@@ -1,0 +1,27 @@
+id: momotaro_original_narrative
+name: 原典寄りの語り
+class: narrative
+type: heroic_folktale
+perspective: human_side
+event_order:
+  - old_man_goes_to_mountain
+  - old_woman_goes_to_river
+  - peach_found
+  - momotaro_birth
+  - departure
+  - recruit_dog
+  - recruit_monkey
+  - recruit_pheasant
+  - arrive_at_oni_island
+  - battle
+  - oni_defeat
+  - return_home
+assumptions:
+  - 鬼は村から宝を奪った存在として語られる。
+  - 桃太郎の出発は共同体を守る正義の行為として語られる。
+  - 宝物の返還は勝利と秩序回復の象徴である。
+alternate_generation_modes:
+  oni_perspective: 鬼ヶ島防衛戦として再構成する。
+  treasure_perspective: 宝物ごとの来歴と所有権を中心に語る。
+  companion_perspective: 犬、猿、雉の契約と報酬を中心に語る。
+

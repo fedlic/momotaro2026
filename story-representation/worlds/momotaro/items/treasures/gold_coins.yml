@@ -1,0 +1,46 @@
+id: gold_coins
+name: 金貨
+class: item
+type: treasure
+subtype: currency
+physical:
+  material: 金
+  size: 小型硬貨の集まり
+  portability: 袋や箱で運搬
+  condition: 刻印が混在している
+ownership:
+  current_owner: momotaro_party
+  previous_owners:
+    - oni_clan
+    - disputed_human_village
+  contested: true
+narrative:
+  importance: high
+  function: 略奪、返還、分配の問題を具体化する
+  first_appearance_event: oni_defeat
+  related_events:
+    - oni_defeat
+    - return_home
+powers:
+  has_power: false
+  abilities:
+    - 交換価値を持つ
+    - 復興資金になる
+  limitations:
+    - 出所の判別が難しい
+  risks:
+    - 分配争いを生む
+symbolism:
+  human_side: 奪われた財産
+  oni_side: 交易と備蓄の資金
+  neutral: 価値が共同体を動かす媒体
+claims:
+  - claimant: momotaro
+    claim_type: restitution
+    reason: 村から奪われた財産を返すため
+  - claimant: oni_clan
+    claim_type: mixed_origin
+    reason: すべてが略奪品とは限らないため
+story_hooks:
+  - 硬貨の刻印から複数の村や国が関わっていることが判明する。
+

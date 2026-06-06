@@ -1,0 +1,30 @@
+id: arrive_at_oni_island
+name: 鬼ヶ島に到着する
+class: event
+type: arrival
+sequence: 9
+location: oni_island
+participants:
+  - momotaro
+  - dog
+  - monkey
+  - pheasant
+  - child_oni
+items:
+  - boat
+  - flag
+causes:
+  - recruit_pheasant
+outcomes:
+  - 桃太郎一行が鬼ヶ島に上陸する。
+  - 鬼側からは外部勢力の侵入として認識される。
+claims_generated:
+  - 鬼ヶ島は鬼の土地である。
+  - 桃太郎は鬼ヶ島へ侵入した。
+narrative_functions:
+  - 人間側と鬼側の領域が接触する
+  - 解釈の分岐点になる
+alternate_interpretations:
+  - 正義の遠征の到着。
+  - 島民から見た侵攻の開始。
+

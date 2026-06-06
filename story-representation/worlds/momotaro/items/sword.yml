@@ -1,0 +1,44 @@
+id: sword
+name: 刀
+class: item
+type: weapon
+subtype: sword
+physical:
+  material: 鋼、木、布
+  size: 桃太郎が携帯できる腰刀
+  portability: 腰に差して運搬可能
+  condition: 戦闘可能な状態
+ownership:
+  current_owner: momotaro
+  previous_owners:
+    - human_village
+  contested: false
+narrative:
+  importance: high
+  function: 鬼との戦闘における英雄の武器
+  first_appearance_event: departure
+  related_events:
+    - departure
+    - battle
+    - oni_defeat
+powers:
+  has_power: ambiguous
+  abilities:
+    - 鬼と戦う
+    - 英雄性を示す
+  limitations:
+    - 近接戦闘に限られる
+    - 使用者の技量に依存する
+  risks:
+    - 暴力の正当化に使われる
+symbolism:
+  human_side: 正義を実行する力
+  oni_side: 人間側の武力
+  neutral: 対話が戦闘へ変わる境界
+claims:
+  - claimant: momotaro
+    claim_type: defense
+    reason: 鬼退治の危険に備えるため
+story_hooks:
+  - 刀が鬼の鉄で鍛えられており、鬼側にも所有権主張がある展開にできる。
+

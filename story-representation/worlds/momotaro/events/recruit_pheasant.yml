@@ -1,0 +1,23 @@
+id: recruit_pheasant
+name: 雉を仲間にする
+class: event
+type: recruitment
+sequence: 8
+location: field
+participants:
+  - momotaro
+  - pheasant
+items:
+  - kibidango
+causes:
+  - recruit_monkey
+outcomes:
+  - 雉がきびだんごを受け取り、桃太郎の仲間になる。
+claims_generated:
+  - 雉は空からの偵察役として同行する。
+narrative_functions:
+  - 空の視点を獲得する
+  - 討伐隊が完成する
+alternate_interpretations:
+  - 雉は鬼ヶ島の非戦闘員を目撃する証人になれる。
+

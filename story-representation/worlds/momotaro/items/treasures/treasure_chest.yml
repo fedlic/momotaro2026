@@ -1,0 +1,46 @@
+id: treasure_chest
+name: 宝箱
+class: item
+type: treasure
+subtype: container
+physical:
+  material: 木、鉄金具、漆
+  size: 複数の宝物を納める大型箱
+  portability: 複数人または船で運搬
+  condition: 鬼ヶ島の倉庫で保管されていた
+ownership:
+  current_owner: momotaro_party
+  previous_owners:
+    - oni_clan
+    - disputed_human_village
+  contested: true
+narrative:
+  importance: high
+  function: 勝利の可視化と所有権争いの焦点
+  first_appearance_event: oni_defeat
+  related_events:
+    - oni_defeat
+    - return_home
+powers:
+  has_power: false
+  abilities:
+    - 宝物を保管する
+    - 権力と富を一つの像にまとめる
+  limitations:
+    - 中身の由来までは証明しない
+  risks:
+    - 宝を一括で奪ったように見える
+symbolism:
+  human_side: 取り返した富
+  oni_side: 生活資源を失う空洞
+  neutral: 価値と争いを運ぶ容器
+claims:
+  - claimant: momotaro
+    claim_type: restitution
+    reason: 村から奪われた宝を取り返すため
+  - claimant: oni_clan
+    claim_type: livelihood
+    reason: 鬼社会の備蓄と資源を含むため
+story_hooks:
+  - 宝箱の中身ごとに由来が違い、返還先をめぐる裁定が必要になる。
+

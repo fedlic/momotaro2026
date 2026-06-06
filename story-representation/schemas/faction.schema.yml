@@ -1,0 +1,18 @@
+id: faction_schema
+name: Faction Schema
+class: schema
+description: 勢力データ定義
+fields:
+  id: snake_caseの一意ID
+  name: 表示名
+  class: faction
+  type: 勢力種別
+  territory: 支配または生活する土地
+  society: 社会構造
+  economy: 経済と資源
+  assets: 武器、生活用品、宝物
+  relationships: 他勢力との関係
+  viewpoints: 自己認識と他者認識
+  claims: 勢力としての主張
+  story_hooks: 二次創作フック
+

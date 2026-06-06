@@ -1,0 +1,48 @@
+id: kibidango
+name: きびだんご
+class: item
+type: food
+subtype: travel_ration_contract_token
+physical:
+  material: きび、米粉、甘味
+  size: 一口大
+  portability: 腰袋で携帯可能
+  condition: 出発時に作られた新鮮な団子
+ownership:
+  current_owner: momotaro
+  previous_owners:
+    - old_woman
+  contested: false
+narrative:
+  importance: high
+  function: 仲間を得るための報酬であり契約の印
+  first_appearance_event: departure
+  related_events:
+    - departure
+    - recruit_dog
+    - recruit_monkey
+    - recruit_pheasant
+powers:
+  has_power: ambiguous
+  abilities:
+    - 動物と桃太郎の関係を成立させる
+    - 食料以上の忠義の象徴になりうる
+  limitations:
+    - 報酬が尽きれば追加の交渉が必要
+  risks:
+    - 契約が不平等だったと解釈される可能性
+symbolism:
+  human_side: 家族の支援と旅の準備
+  oni_side: 桃太郎が外部戦力を集めるための誘因
+  neutral: 食料、報酬、契約の境界にある品
+claims:
+  - claimant: dog
+    claim_type: compensation
+    reason: 危険な旅に参加する対価として受け取った
+  - claimant: momotaro
+    claim_type: alliance
+    reason: 分け与えることで仲間関係を結んだ
+story_hooks:
+  - きびだんごに魔力があり、食べた者が桃太郎に従う設定にできる。
+  - 単なる報酬として、仲間たちの主体性を強調できる。
+

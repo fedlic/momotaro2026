@@ -1,0 +1,46 @@
+id: golden_mallet
+name: 打ち出の小槌
+class: item
+type: treasure
+subtype: magical_tool
+physical:
+  material: 金、木芯、装飾紐
+  size: 片手で振れる小槌
+  portability: 携帯可能
+  condition: 魔力を帯びているが使用頻度は不明
+ownership:
+  current_owner: momotaro_party
+  previous_owners:
+    - oni_clan
+  contested: true
+narrative:
+  importance: high
+  function: 富を生む力として戦後秩序を揺らす
+  first_appearance_event: oni_defeat
+  related_events:
+    - oni_defeat
+    - return_home
+powers:
+  has_power: true
+  abilities:
+    - 振ることで望む物や富を出すと信じられる
+  limitations:
+    - 願いの範囲は不明
+    - 使いすぎると価値や秩序を壊す
+  risks:
+    - 欲望を増幅する
+    - 所有者を争いの中心にする
+symbolism:
+  human_side: 奪われた繁栄の回復
+  oni_side: 鬼社会を支える生産手段
+  neutral: 富を生むが倫理を試す道具
+claims:
+  - claimant: momotaro
+    claim_type: restitution
+    reason: 鬼の不当な富の象徴として持ち帰る
+  - claimant: oni_clan
+    claim_type: production_resource
+    reason: 島の経済を支える魔法具であるため
+story_hooks:
+  - 小槌を使うほど村が豊かになるが、別の場所から何かが失われる設定にできる。
+

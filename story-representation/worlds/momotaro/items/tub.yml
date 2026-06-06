@@ -1,0 +1,40 @@
+id: tub
+name: たらい
+class: item
+type: tool
+subtype: washing_tub
+physical:
+  material: 木
+  size: 洗濯物を浸せる大きさ
+  portability: 空なら運搬可能
+  condition: 水に濡れても使える
+ownership:
+  current_owner: old_woman
+  previous_owners: []
+  contested: false
+narrative:
+  importance: low
+  function: 川での洗濯風景を具体化する
+  first_appearance_event: old_woman_goes_to_river
+  related_events:
+    - old_woman_goes_to_river
+powers:
+  has_power: false
+  abilities:
+    - 洗濯に使う
+    - 一時的な容器になる
+  limitations:
+    - 長距離運搬には向かない
+  risks:
+    - 川に流される
+symbolism:
+  human_side: 家庭労働
+  oni_side: 人間の日常の小道具
+  neutral: 非英雄的な生活の象徴
+claims:
+  - claimant: old_woman
+    claim_type: use
+    reason: 家の生活用品
+story_hooks:
+  - 桃を割る前に水面で反応する器として使える。
+

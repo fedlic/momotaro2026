@@ -1,0 +1,16 @@
+id: claim_schema
+name: Claim Schema
+class: schema
+description: 物語内の主張データ定義
+fields:
+  id: snake_caseの一意ID
+  name: 表示名
+  class: claim
+  claimant: 主張者ID
+  target: 対象ID
+  claim_type: 正当化、所有権、非難、防衛など
+  statement: 主張文
+  evidence: 根拠
+  counterclaims: 反論ID配列
+  narrative_use: 物語生成での使い道
+

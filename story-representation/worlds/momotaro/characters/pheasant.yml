@@ -1,0 +1,33 @@
+id: pheasant
+name: 雉
+class: character
+role: companion
+faction: momotaro_party
+profile:
+  species: talking_pheasant
+  age_stage: adult
+  occupation: 空からの斥候
+  residence: field
+traits:
+  personality:
+    - 誇り高い
+    - 観察力がある
+  skills:
+    - 飛行
+    - 上空偵察
+  fears:
+    - 空を奪われること
+  desires:
+    - 自由
+    - 功績
+relationships:
+  momotaro: きびだんごを介した契約相手
+narrative:
+  importance: companion
+  first_appearance_event: recruit_pheasant
+  arc: 空の観察者から戦況を動かす仲間になる。
+claims:
+  - 空から見た鬼ヶ島の状況を証言できる。
+story_hooks:
+  - 鬼側の非戦闘員を見つけ、討伐の倫理に揺れる。
+

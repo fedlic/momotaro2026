@@ -1,0 +1,43 @@
+id: peach
+name: 桃
+class: item
+type: natural_object
+subtype: miraculous_fruit
+physical:
+  material: 果実
+  size: 人の赤子を内包できるほど大きい
+  portability: 両手または籠で運搬可能
+  condition: 川から流れてきたが傷みは少ない
+ownership:
+  current_owner: old_woman
+  previous_owners:
+    - unknown_origin
+  contested: false
+narrative:
+  importance: central
+  function: 桃太郎誕生の媒介
+  first_appearance_event: peach_found
+  related_events:
+    - peach_found
+    - momotaro_birth
+powers:
+  has_power: true
+  abilities:
+    - 内部から子どもを出現させる
+    - 老夫婦の家に奇跡をもたらす
+  limitations:
+    - 起源は不明
+    - 同じ現象が再現できるか不明
+  risks:
+    - 神意か呪いか判断できない
+symbolism:
+  human_side: 授かりものと希望
+  oni_side: 人間側の英雄を生む不可解な前兆
+  neutral: 境界を流れてくる運命の容器
+claims:
+  - claimant: old_woman
+    claim_type: discovery
+    reason: 川で拾い家に持ち帰ったため
+story_hooks:
+  - 桃の出所を鬼ヶ島、神域、川上の失われた村にする。
+

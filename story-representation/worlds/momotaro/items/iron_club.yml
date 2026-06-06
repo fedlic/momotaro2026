@@ -1,0 +1,45 @@
+id: iron_club
+name: 金棒
+class: item
+type: weapon
+subtype: iron_club
+physical:
+  material: 鉄
+  size: 鬼が振るう大型武器
+  portability: 鬼には携帯可能、人間には重い
+  condition: 戦闘で傷がある
+ownership:
+  current_owner: red_oni
+  previous_owners:
+    - oni_clan
+  contested: true
+narrative:
+  importance: high
+  function: 鬼の武力と脅威を示す
+  first_appearance_event: battle
+  related_events:
+    - battle
+    - oni_defeat
+powers:
+  has_power: false
+  abilities:
+    - 強力な打撃
+    - 威圧
+  limitations:
+    - 重く小回りが利かない
+  risks:
+    - 使用者の怪物性を強調してしまう
+symbolism:
+  human_side: 鬼の暴力
+  oni_side: 島を守る武器
+  neutral: 防衛と加害の両義性
+claims:
+  - claimant: oni_clan
+    claim_type: defense_tool
+    reason: 鬼ヶ島を守るための武器
+  - claimant: momotaro
+    claim_type: evidence
+    reason: 鬼の危険性を示す証拠
+story_hooks:
+  - 戦後に金棒を封印するか、村の戦利品にするかで対立が起きる。
+

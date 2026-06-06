@@ -1,0 +1,33 @@
+id: dog
+name: 犬
+class: character
+role: companion
+faction: momotaro_party
+profile:
+  species: talking_dog
+  age_stage: adult
+  occupation: 番犬、追跡者
+  residence: roadside
+traits:
+  personality:
+    - 忠実
+    - 勇敢
+  skills:
+    - 嗅覚追跡
+    - 噛みつき
+  fears:
+    - 約束を破られること
+  desires:
+    - 報酬
+    - 名誉
+relationships:
+  momotaro: きびだんごを介した契約相手
+narrative:
+  importance: companion
+  first_appearance_event: recruit_dog
+  arc: 通りすがりの動物から討伐隊の一員になる。
+claims:
+  - きびだんごを受け取った対価として戦う。
+story_hooks:
+  - 契約が食料報酬なのか忠義なのかを掘り下げる。
+

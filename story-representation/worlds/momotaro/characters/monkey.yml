@@ -1,0 +1,33 @@
+id: monkey
+name: 猿
+class: character
+role: companion
+faction: momotaro_party
+profile:
+  species: talking_monkey
+  age_stage: adult
+  occupation: 偵察者
+  residence: forest
+traits:
+  personality:
+    - 機敏
+    - 口が達者
+  skills:
+    - 登攀
+    - 攪乱
+  fears:
+    - 力だけの戦い
+  desires:
+    - 利益
+    - 面白い冒険
+relationships:
+  momotaro: きびだんごを介した契約相手
+narrative:
+  importance: companion
+  first_appearance_event: recruit_monkey
+  arc: 利己的な交渉者から作戦の要になる。
+claims:
+  - 報酬を得た以上、戦闘に参加する義務がある。
+story_hooks:
+  - 鬼ヶ島内部に潜入して宝物の真相を知る役にできる。
+

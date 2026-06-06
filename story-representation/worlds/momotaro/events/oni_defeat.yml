@@ -1,0 +1,33 @@
+id: oni_defeat
+name: 鬼の敗北
+class: event
+type: defeat_and_surrender
+sequence: 11
+location: oni_island
+participants:
+  - momotaro
+  - red_oni
+  - child_oni
+items:
+  - treasure_chest
+  - golden_mallet
+  - coral_branch
+  - invisible_cloak
+  - gold_coins
+  - silver_coins
+  - silk_roll
+causes:
+  - battle
+outcomes:
+  - 鬼が降参する。
+  - 宝物が桃太郎側へ移る。
+claims_generated:
+  - 宝は取り返すべきである。
+  - 宝は鬼社会の生活資源でもある。
+narrative_functions:
+  - 勝利の確定
+  - 所有権争いの発生
+alternate_interpretations:
+  - 奪還。
+  - 戦後接収。
+

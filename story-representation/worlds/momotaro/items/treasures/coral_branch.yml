@@ -1,0 +1,46 @@
+id: coral_branch
+name: 珊瑚の枝
+class: item
+type: treasure
+subtype: rare_natural_artifact
+physical:
+  material: 赤珊瑚
+  size: 腕ほどの枝状
+  portability: 壊れやすいが携帯可能
+  condition: 欠けが少なく美しい
+ownership:
+  current_owner: momotaro_party
+  previous_owners:
+    - oni_clan
+    - sea
+  contested: true
+narrative:
+  importance: medium
+  function: 鬼ヶ島と海の豊かさを示す
+  first_appearance_event: oni_defeat
+  related_events:
+    - oni_defeat
+    - return_home
+powers:
+  has_power: ambiguous
+  abilities:
+    - 海の加護を持つ宝と解釈できる
+  limitations:
+    - 物理的に脆い
+    - 魔力の有無は語り手次第
+  risks:
+    - 壊れると海の怒りを招くという伝承を付与できる
+symbolism:
+  human_side: 珍しい財宝
+  oni_side: 島と海のつながり
+  neutral: 自然物が財産化されたもの
+claims:
+  - claimant: oni_clan
+    claim_type: territorial_resource
+    reason: 鬼ヶ島近海に由来する資源であるため
+  - claimant: momotaro
+    claim_type: war_spoil
+    reason: 鬼退治の結果として持ち帰られたため
+story_hooks:
+  - 珊瑚の枝を返さないと海路が荒れる。
+

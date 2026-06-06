@@ -1,0 +1,41 @@
+id: momotaro_side_claims
+name: 桃太郎側の言い分
+class: claim_set
+claimant: human_village
+claims:
+  - id: oni_stole_treasures
+    claimant: human_village
+    target: oni_clan
+    claim_type: accusation
+    statement: 鬼は村から宝を奪った。
+    evidence:
+      - 村に鬼の被害の語りが残っている。
+      - 鬼ヶ島に多くの宝物が保管されている。
+    counterclaims:
+      - oni_treasures_are_livelihood
+      - treasure_origins_are_mixed
+    narrative_use: 桃太郎の出発を正義として成立させる。
+  - id: oni_extermination_is_justice
+    claimant: momotaro
+    target: oni_clan
+    claim_type: justification
+    statement: 鬼退治は村を守るための正義である。
+    evidence:
+      - 鬼は危険な武器を持つ。
+      - 村人は鬼を恐れている。
+    counterclaims:
+      - momotaro_action_is_invasion
+    narrative_use: 英雄譚としての語りを強める。
+  - id: treasures_should_be_recovered
+    claimant: momotaro
+    target: treasure_chest
+    claim_type: restitution
+    statement: 宝は取り返すべきである。
+    evidence:
+      - 鬼が不当に所有していると語られる。
+      - 宝の返還が村の回復につながる。
+    counterclaims:
+      - oni_treasures_are_livelihood
+      - treasure_origins_are_mixed
+    narrative_use: 帰還イベントの報酬と結末を支える。
+

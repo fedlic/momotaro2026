@@ -1,0 +1,42 @@
+id: headband
+name: 鉢巻
+class: item
+type: clothing
+subtype: headband
+physical:
+  material: 布
+  size: 頭に巻ける長さ
+  portability: 身につけて運搬
+  condition: 清潔で丈夫
+ownership:
+  current_owner: momotaro
+  previous_owners:
+    - old_woman
+  contested: false
+narrative:
+  importance: medium
+  function: 決意と出陣の象徴
+  first_appearance_event: departure
+  related_events:
+    - departure
+    - battle
+powers:
+  has_power: false
+  abilities:
+    - 気持ちを引き締める
+    - 顔つきを英雄らしく見せる
+  limitations:
+    - 物理的な防御力は低い
+  risks:
+    - 敵に目印として認識される
+symbolism:
+  human_side: 覚悟と家族の祈り
+  oni_side: 戦闘意思の表明
+  neutral: 子どもから英雄への切り替え
+claims:
+  - claimant: old_woman
+    claim_type: blessing
+    reason: 旅の無事を願って持たせた
+story_hooks:
+  - 帰還後、血や海風で汚れた鉢巻が勝利の代償を示す。
+

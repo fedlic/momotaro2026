@@ -1,0 +1,26 @@
+id: momotaro_world
+name: 桃太郎の世界
+class: world
+type: mythic_folktale_world
+locations:
+  village:
+    name: 村
+    description: 老夫婦が暮らす共同体。鬼の被害を受けたと語られる。
+  mountain:
+    name: 山
+    description: おじいさんが柴刈りに行く生活圏。
+  river:
+    name: 川
+    description: おばあさんが洗濯に行き、桃が流れてくる境界領域。
+  oni_island:
+    name: 鬼ヶ島
+    description: 鬼の土地。人間側からは危険な島、鬼側からは生活と自治の場。
+rules:
+  birth_from_peach: 桃から人間の子が現れる超自然的現象が許容される。
+  animal_speech: 犬、猿、雉は交渉可能な知性を持つ。
+  treasure_claims: 宝物の所有権は語り手の立場によって変化する。
+central_conflict:
+  human_side: 鬼が村から宝を奪ったため、桃太郎が討伐に向かう。
+  oni_side: 鬼ヶ島は鬼の土地であり、人間側の上陸と戦闘は侵攻でもある。
+  neutral: 物語は正義の回復と異文化衝突の両方として解釈できる。
+

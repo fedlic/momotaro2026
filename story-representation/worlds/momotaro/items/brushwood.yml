@@ -1,0 +1,40 @@
+id: brushwood
+name: 柴
+class: item
+type: resource
+subtype: fuel
+physical:
+  material: 小枝、枯れ枝
+  size: 背負える束
+  portability: 縄で束ねて運搬
+  condition: 乾燥して燃料に適する
+ownership:
+  current_owner: old_man
+  previous_owners:
+    - mountain
+  contested: false
+narrative:
+  importance: low
+  function: 村の日常と季節感を示す
+  first_appearance_event: old_man_goes_to_mountain
+  related_events:
+    - old_man_goes_to_mountain
+powers:
+  has_power: false
+  abilities:
+    - 火を起こす燃料になる
+  limitations:
+    - 消耗品
+  risks:
+    - 湿ると使いにくい
+symbolism:
+  human_side: 生活資源
+  oni_side: 人間の土地利用
+  neutral: 物語開始時の日常性
+claims:
+  - claimant: old_man
+    claim_type: labor_product
+    reason: 山で集めた労働の成果
+story_hooks:
+  - 柴の中に鬼ヶ島由来の漂着物を混ぜられる。
+

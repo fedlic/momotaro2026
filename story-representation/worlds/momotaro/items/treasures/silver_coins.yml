@@ -1,0 +1,46 @@
+id: silver_coins
+name: 銀貨
+class: item
+type: treasure
+subtype: currency
+physical:
+  material: 銀
+  size: 小型硬貨の集まり
+  portability: 袋や箱で運搬
+  condition: 変色や摩耗がある
+ownership:
+  current_owner: momotaro_party
+  previous_owners:
+    - oni_clan
+    - disputed_human_village
+  contested: true
+narrative:
+  importance: medium
+  function: 金貨より日常的な経済資源として扱える
+  first_appearance_event: oni_defeat
+  related_events:
+    - oni_defeat
+    - return_home
+powers:
+  has_power: false
+  abilities:
+    - 交換価値を持つ
+    - 生活必需品の購入に使える
+  limitations:
+    - 枚数と由来の記録が必要
+  risks:
+    - 返還先の不明確さ
+symbolism:
+  human_side: 日々の生活を支える返還財
+  oni_side: 島の市場を回す通貨
+  neutral: 経済の現実性
+claims:
+  - claimant: oni_clan
+    claim_type: livelihood
+    reason: 鬼の生活経済で使われていたため
+  - claimant: momotaro
+    claim_type: restitution
+    reason: 人間の村から奪われた可能性があるため
+story_hooks:
+  - 銀貨だけは鬼と人間の交易記録を示している。
+

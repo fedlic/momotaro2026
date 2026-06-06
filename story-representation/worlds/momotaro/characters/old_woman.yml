@@ -1,0 +1,33 @@
+id: old_woman
+name: おばあさん
+class: character
+role: guardian
+faction: human_village
+profile:
+  species: human
+  age_stage: elder
+  occupation: 洗濯と家事
+  residence: village
+traits:
+  personality:
+    - 慈愛深い
+    - 現実的
+  skills:
+    - 家事
+    - 食事作り
+  fears:
+    - 桃太郎が旅で傷つくこと
+  desires:
+    - 家族の幸福
+relationships:
+  old_man: 配偶者
+  momotaro: 育ての子
+narrative:
+  importance: supporting
+  first_appearance_event: old_woman_goes_to_river
+  arc: 桃を拾う者から旅の支度を整える者になる。
+claims:
+  - きびだんごは桃太郎を守るための贈り物である。
+story_hooks:
+  - きびだんごに祈りや護符としての力を込める解釈ができる。
+

@@ -1,0 +1,21 @@
+id: old_man_goes_to_mountain
+name: おじいさんが山へ行く
+class: event
+type: daily_life
+sequence: 1
+location: mountain
+participants:
+  - old_man
+items:
+  - axe
+  - brushwood
+causes: []
+outcomes:
+  - おじいさんは日常の労働として柴刈りを行う。
+claims_generated: []
+narrative_functions:
+  - 物語開始時の日常を示す
+  - おばあさんが川へ行く行動と対になる
+alternate_interpretations:
+  - 人間が山の資源を利用する描写として読める。
+

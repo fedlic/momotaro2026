@@ -1,0 +1,43 @@
+id: flag
+name: 旗
+class: item
+type: symbol
+subtype: battle_standard
+physical:
+  material: 布、竹または木の竿
+  size: 船上や戦場で見える大きさ
+  portability: 手持ち可能
+  condition: 旅で汚れるが掲げられる
+ownership:
+  current_owner: momotaro
+  previous_owners:
+    - old_woman
+  contested: false
+narrative:
+  importance: medium
+  function: 桃太郎一行の名乗りと士気を示す
+  first_appearance_event: departure
+  related_events:
+    - departure
+    - arrive_at_oni_island
+    - battle
+powers:
+  has_power: false
+  abilities:
+    - 所属と目的を示す
+    - 仲間を鼓舞する
+  limitations:
+    - 目立つため奇襲に向かない
+  risks:
+    - 鬼側への宣戦布告と受け取られる
+symbolism:
+  human_side: 正義の旗印
+  oni_side: 侵攻軍の標識
+  neutral: 語りの立場を可視化する記号
+claims:
+  - claimant: momotaro
+    claim_type: identity
+    reason: 自分たちの目的を示すため
+story_hooks:
+  - 旗の文字が後世に政治的象徴として利用される。
+

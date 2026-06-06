@@ -1,0 +1,23 @@
+id: recruit_monkey
+name: 猿を仲間にする
+class: event
+type: recruitment
+sequence: 7
+location: forest_path
+participants:
+  - momotaro
+  - monkey
+items:
+  - kibidango
+causes:
+  - recruit_dog
+outcomes:
+  - 猿がきびだんごを受け取り、桃太郎の仲間になる。
+claims_generated:
+  - 猿は報酬を受け取った同行者である。
+narrative_functions:
+  - 仲間の技能を増やす
+  - 地上での機動力を得る
+alternate_interpretations:
+  - 猿は鬼ヶ島の内部情報を欲しがって参加したともできる。
+

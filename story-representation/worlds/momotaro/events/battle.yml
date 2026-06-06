@@ -1,0 +1,31 @@
+id: battle
+name: 鬼との戦い
+class: event
+type: battle
+sequence: 10
+location: oni_island
+participants:
+  - momotaro
+  - dog
+  - monkey
+  - pheasant
+  - red_oni
+items:
+  - sword
+  - iron_club
+  - flag
+causes:
+  - arrive_at_oni_island
+outcomes:
+  - 桃太郎一行と鬼が戦う。
+  - 鬼側の戦力が崩れる。
+claims_generated:
+  - 桃太郎側は鬼退治を正義と主張する。
+  - 鬼側は島の防衛を主張する。
+narrative_functions:
+  - 対立の頂点
+  - 暴力による解決
+alternate_interpretations:
+  - 英雄の勝利。
+  - 交渉不在の武力衝突。
+

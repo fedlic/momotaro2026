@@ -1,0 +1,45 @@
+id: boat
+name: 船
+class: item
+type: vehicle
+subtype: small_boat
+physical:
+  material: 木
+  size: 桃太郎一行が乗れる小型船
+  portability: 海上移動用で陸上運搬は難しい
+  condition: 航海可能
+ownership:
+  current_owner: momotaro_party
+  previous_owners:
+    - human_village
+  contested: false
+narrative:
+  importance: high
+  function: 人間の領域から鬼ヶ島へ越境する手段
+  first_appearance_event: departure
+  related_events:
+    - departure
+    - arrive_at_oni_island
+    - return_home
+powers:
+  has_power: false
+  abilities:
+    - 海を渡る
+    - 宝物を積んで帰還する
+  limitations:
+    - 天候に弱い
+    - 積載量に限界がある
+  risks:
+    - 沈没
+    - 鬼側から侵入手段とみなされる
+symbolism:
+  human_side: 勇気ある遠征
+  oni_side: 外部勢力の上陸手段
+  neutral: 境界を越える乗り物
+claims:
+  - claimant: momotaro
+    claim_type: mission_tool
+    reason: 鬼ヶ島へ向かうため必要
+story_hooks:
+  - 船が鬼側の監視網に発見される緊張場面を作れる。
+

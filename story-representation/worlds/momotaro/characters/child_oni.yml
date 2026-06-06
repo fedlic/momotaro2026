@@ -1,0 +1,33 @@
+id: child_oni
+name: 子鬼
+class: character
+role: civilian_witness
+faction: oni_clan
+profile:
+  species: oni
+  age_stage: child
+  occupation: 鬼ヶ島の子ども
+  residence: oni_island
+traits:
+  personality:
+    - 好奇心が強い
+    - 怖がり
+  skills:
+    - 島の抜け道を知っている
+  fears:
+    - 戦闘
+    - 家族を失うこと
+  desires:
+    - 安全
+    - 人間を理解すること
+relationships:
+  red_oni: 保護者または共同体の大人
+narrative:
+  importance: optional_perspective
+  first_appearance_event: arrive_at_oni_island
+  arc: 敵味方の境界を揺らす視点人物になる。
+claims:
+  - 人間は鬼を一方的に怪物と呼んでいる。
+story_hooks:
+  - 戦後に桃太郎と対話し、和解編の中心になる。
+

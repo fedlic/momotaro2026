@@ -1,0 +1,20 @@
+id: old_woman_goes_to_river
+name: おばあさんが川へ行く
+class: event
+type: daily_life
+sequence: 2
+location: river
+participants:
+  - old_woman
+items:
+  - laundry_basket
+  - tub
+causes: []
+outcomes:
+  - おばあさんは洗濯のため川へ向かう。
+claims_generated: []
+narrative_functions:
+  - 奇跡が日常へ入り込む舞台を用意する
+alternate_interpretations:
+  - 川は未知のものが流れ着く境界として機能する。
+

@@ -1,0 +1,28 @@
+id: character_schema
+name: Character Schema
+class: schema
+description: AI創作用の人物データ定義
+fields:
+  id: snake_caseの一意ID
+  name: 表示名
+  class: character
+  role: 物語上の役割
+  faction: 所属勢力ID
+  profile:
+    species: 種族
+    age_stage: 年齢段階
+    occupation: 職能
+    residence: 居住地
+  traits:
+    personality: 性格
+    skills: 技能
+    fears: 恐れ
+    desires: 望み
+  relationships: 他キャラクターとの関係
+  narrative:
+    importance: 重要度
+    first_appearance_event: 初登場イベントID
+    arc: 変化
+  claims: 主張IDまたは主張内容
+  story_hooks: 二次創作フック
+

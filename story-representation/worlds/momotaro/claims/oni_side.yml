@@ -1,0 +1,62 @@
+id: oni_side_claims
+name: 鬼側の言い分
+class: claim_set
+claimant: oni_clan
+claims:
+  - id: oni_island_is_oni_land
+    claimant: oni_clan
+    target: oni_island
+    claim_type: territorial_right
+    statement: 鬼ヶ島は鬼の土地である。
+    evidence:
+      - 鬼は島に住居、倉庫、社会を持っている。
+      - 人間側は船で外部から上陸している。
+    counterclaims:
+      - oni_extermination_is_justice
+    narrative_use: 鬼側視点の防衛戦を成立させる。
+  - id: oni_treasures_are_livelihood
+    claimant: oni_clan
+    target: treasure_chest
+    claim_type: livelihood
+    statement: 宝は鬼社会の生活資源でもある。
+    evidence:
+      - 金貨、銀貨、絹は島の経済や生活に使われる。
+      - 打ち出の小槌や隠れ蓑は防衛と生産に関わる。
+    counterclaims:
+      - treasures_should_be_recovered
+    narrative_use: 宝物を単なる報酬ではなく生活基盤として扱う。
+  - id: humans_monsterize_oni
+    claimant: oni_clan
+    target: human_village
+    claim_type: critique
+    statement: 人間は鬼を一方的に怪物化している。
+    evidence:
+      - 人間側の語りでは鬼の生活や子どもが描かれにくい。
+      - 鬼の社会構造が無視されている。
+    counterclaims:
+      - oni_stole_treasures
+    narrative_use: 別視点生成や倫理的再解釈に使う。
+  - id: momotaro_action_is_invasion
+    claimant: oni_clan
+    target: momotaro_party
+    claim_type: accusation
+    statement: 桃太郎の行為は侵攻でもある。
+    evidence:
+      - 桃太郎一行は武器と旗を持って鬼ヶ島に上陸した。
+      - 戦闘後に宝物を持ち帰っている。
+    counterclaims:
+      - oni_extermination_is_justice
+      - treasures_should_be_recovered
+    narrative_use: 桃太郎を英雄ではなく侵攻者として再構成する。
+  - id: treasure_origins_are_mixed
+    claimant: oni_clan
+    target: gold_coins
+    claim_type: uncertainty
+    statement: 宝の出所は一様ではなく、すべてが略奪品とは限らない。
+    evidence:
+      - 硬貨や反物には複数の来歴がありうる。
+      - 鬼ヶ島は交易や備蓄を持つ社会として設定できる。
+    counterclaims:
+      - oni_stole_treasures
+    narrative_use: 所有権調査、裁判、外交交渉のプロットに使う。
+

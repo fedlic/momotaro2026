@@ -1,0 +1,33 @@
+id: old_man
+name: おじいさん
+class: character
+role: guardian
+faction: human_village
+profile:
+  species: human
+  age_stage: elder
+  occupation: 柴刈り
+  residence: village
+traits:
+  personality:
+    - 穏やか
+    - 勤勉
+  skills:
+    - 山仕事
+    - 道具の扱い
+  fears:
+    - 家族を失うこと
+  desires:
+    - 平穏な暮らし
+relationships:
+  old_woman: 配偶者
+  momotaro: 育ての子
+narrative:
+  importance: supporting
+  first_appearance_event: old_man_goes_to_mountain
+  arc: 日常の労働者から英雄の養父になる。
+claims:
+  - 桃太郎は授かりものとして大切に育てるべき子である。
+story_hooks:
+  - 山で鬼の痕跡や宝の由来を見つけていた過去を追加できる。
+

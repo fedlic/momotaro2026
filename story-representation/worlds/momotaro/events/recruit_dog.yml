@@ -1,0 +1,23 @@
+id: recruit_dog
+name: 犬を仲間にする
+class: event
+type: recruitment
+sequence: 6
+location: roadside
+participants:
+  - momotaro
+  - dog
+items:
+  - kibidango
+causes:
+  - departure
+outcomes:
+  - 犬がきびだんごを受け取り、桃太郎の仲間になる。
+claims_generated:
+  - きびだんごは同行の対価である。
+narrative_functions:
+  - 仲間集め
+  - 契約の反復構造を開始する
+alternate_interpretations:
+  - 忠義ではなく食料契約として解釈できる。
+

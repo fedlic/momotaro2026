@@ -1,0 +1,54 @@
+id: oni_clan
+name: 鬼一族
+class: faction
+type: island_clan
+territory:
+  primary_location: oni_island
+  name: 鬼ヶ島
+  description: 海に隔てられた鬼の生活圏。砦、住居、倉庫、宝物庫を含む。
+society:
+  structure: 首領と戦士、職人、子どもを含む共同体。
+  values:
+    - 力
+    - 土地の防衛
+    - 共同体資源の共有
+  daily_life:
+    - 漁
+    - 鍛冶
+    - 宝物の管理
+    - 島の警備
+economy:
+  resources:
+    - 金貨
+    - 銀貨
+    - 絹
+    - 珊瑚
+    - 鉄
+  human_side_view: 村から奪った略奪品。
+  oni_side_view: 交易、戦利品、島内備蓄が混ざった生活資源。
+assets:
+  weapons:
+    - iron_club
+  daily_goods:
+    - treasure_chest
+    - silk_roll
+  treasures:
+    - golden_mallet
+    - coral_branch
+    - invisible_cloak
+    - gold_coins
+    - silver_coins
+    - silk_roll
+viewpoints:
+  human_view_of_oni: 村を襲い宝を奪う怪物。
+  oni_view_of_humans: 鬼を理解せず、土地へ侵入する外部勢力。
+claims:
+  - 鬼ヶ島は鬼の土地である。
+  - 宝は鬼社会の生活資源でもある。
+  - 人間は鬼を一方的に怪物化している。
+  - 桃太郎の行為は侵攻でもある。
+story_hooks:
+  - 鬼社会の内部に和平派と強硬派を作る。
+  - 宝物の一部を村との古い交易品にする。
+  - 子鬼の視点で敗北後の鬼ヶ島を描く。
+

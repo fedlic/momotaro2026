@@ -1,0 +1,39 @@
+id: item_schema
+name: Item Schema
+class: schema
+description: アイテムおよび宝物データ定義
+fields:
+  id: snake_caseの一意ID
+  name: 表示名
+  class: item
+  type: 大分類
+  subtype: 小分類
+  physical:
+    material: 材質
+    size: サイズ
+    portability: 運搬性
+    condition: 状態
+  ownership:
+    current_owner: 現在の所有者ID
+    previous_owners: 過去の所有者ID配列
+    contested: 所有権が争われているか
+  narrative:
+    importance: 重要度
+    function: 物語上の機能
+    first_appearance_event: 初登場イベントID
+    related_events: 関連イベントID配列
+  powers:
+    has_power: 魔力や特殊効果の有無
+    abilities: 能力
+    limitations: 制限
+    risks: リスク
+  symbolism:
+    human_side: 人間側での象徴
+    oni_side: 鬼側での象徴
+    neutral: 中立的意味
+  claims:
+    - claimant: 主張者ID
+      claim_type: 主張種別
+      reason: 理由
+  story_hooks: 二次創作フック
+

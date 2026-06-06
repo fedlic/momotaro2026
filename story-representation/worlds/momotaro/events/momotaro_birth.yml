@@ -1,0 +1,25 @@
+id: momotaro_birth
+name: 桃太郎の誕生
+class: event
+type: miraculous_birth
+sequence: 4
+location: village
+participants:
+  - old_man
+  - old_woman
+  - momotaro
+items:
+  - peach
+causes:
+  - peach_found
+outcomes:
+  - 桃から男の子が現れる。
+  - 老夫婦は子を桃太郎と名づけ育てる。
+claims_generated:
+  - 桃太郎は老夫婦に授けられた子である。
+narrative_functions:
+  - 英雄の非日常的起源を示す
+alternate_interpretations:
+  - 桃太郎は神意の子である。
+  - 桃太郎は人間と鬼の境界に属する存在である。
+
